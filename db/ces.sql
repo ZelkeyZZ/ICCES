@@ -290,18 +290,7 @@ CREATE TABLE `table_employee_info` (
 --
 
 INSERT INTO `table_employee_info` (`id`, `userid`, `employeeid`, `firstname`, `initials`, `lastname`, `prefix`) VALUES
-(1, 2, 'superadmin009', 'Russia', 'B.', 'Matriyoshika', 'Mr.'),
-(2, 3, '050205182373', 'John Carlo', 'M.', 'Gayas', 'Mr.'),
-(3, 4, '050205182374', 'Albert John', 'C.', 'Mamaril', 'Mr.'),
-(4, 7, '050205182377', 'Leonardo', 'C.', 'Corpuz', 'Mr.'),
-(5, 8, '050205182378', 'Alexander', 'V.', 'Lee', 'Mr.'),
-(6, 9, '050205182379', 'Rolan', 'B.', 'Macarang', 'Mr.'),
-(7, 10, '050205182380', 'Dimitri', 'J.', 'Davinci', 'Mr.'),
-(8, 11, '050205182381', 'Makoto', 'R.', 'Toyota', 'Mr.'),
-(9, 12, '050205182382', 'Matsumoto', 'D.', 'Mitsubishi', 'Mr.'),
-(10, 13, '050205182383', 'Daisuko', 'K.', 'Nissan', 'Mr.'),
-(11, 14, '050205182384', 'Ayaka', 'Q.', 'Reizei', 'Mr.'),
-(12, 15, '050205182385', 'John David', 'U.', 'Johnson', 'Mr.');
+(1, 2, 'superadmin009', 'Russia', 'B.', 'Matriyoshika', 'Mr.');
 
 -- --------------------------------------------------------
 
@@ -415,10 +404,7 @@ CREATE TABLE `table_student_info` (
 --
 
 INSERT INTO `table_student_info` (`id`, `userid`, `studentid`, `firstname`, `initials`, `lastname`, `prefix`, `studenttype`, `schoolyear`, `courseid`, `yearid`, `semesterid`, `curriculumtype`, `subjects`) VALUES
-(1, 1, '050205182372', 'Norbert II', 'A.', 'Magbual', 'Mr.', 'Regular', 2021, 1, 3, 3, 'New Curriculum', 'OJT331A | ITELE4'),
-(2, 5, '050205182375', 'Sean Mikheal', 'C.', 'Buena', 'Mr.', 'Regular', 2021, 1, 3, 3, 'New Curriculum', 'OJT331A | ITELE4'),
-(3, 6, '050205182376', 'Derrick', 'R.', 'Dipol', 'Mr.', 'None Selected', 2021, 7, 5, 4, 'None Selected', NULL),
-(4, 16, '050205182386', 'Kristine Claire', 'D.', 'Vernes', 'Ms.', 'None Selected', 2021, 7, 5, 4, 'None Selected', NULL);
+(1, 1, '050205182372', 'Redacted', 'A.', 'Redacted', 'Mr.', 'Regular', 2021, 1, 3, 3, 'New Curriculum', 'OJT331A | ITELE4');
 
 -- --------------------------------------------------------
 
@@ -575,22 +561,7 @@ CREATE TABLE `table_users` (
 --
 
 INSERT INTO `table_users` (`id`, `username`, `password`, `email`, `userrank`, `datecreated`, `status`, `edited`) VALUES
-(1, '050205182372', '$2y$10$VjYfwxBeX1dfJUdNUWGVn.T4pZrBk8T8F1FbmQu1D1g5PlXbJvZ8G', 'n.magbual@info.com', 'STUDENT', '2021-05-20', 'Active', '2021-05-23 08:04:02'),
-(2, 'superadmin009', '$2y$10$KeW3qqKsZXQf4oGdeiVU/eYMkH2goScKZuqN.rR1kcw7ODTsM9ZVG', 'superadmin@info.com', 'SUPERADMIN', '2021-05-20', 'Active', '2021-05-20 13:22:46'),
-(3, '050205182373', '$2y$10$8gPzj4oa28JOVVVBhQcU0egiX4sd0tHyHIl9QcSwlbFFpYvZLOsma', 'jc.gayas@info.com', 'INSTRUCTOR', '2021-05-22', 'Active', '2021-05-22 16:40:52'),
-(4, '050205182374', '$2y$10$EzPMaK2ODXwG.cDmCvfMpOrek7fJQRjVw3FSqEL2k8/qNfKnEkw26', 'aj.mamaril@info.com', 'INSTRUCTOR', '2021-05-22', 'Active', '2021-05-22 16:55:45'),
-(5, '050205182375', '$2y$10$X9tD3Wfxpeq0OLPQ2WsjkOGrTUkZwTAKgRhztcGw1X3oYbqcii.ny', 'sm.buena@info.com', 'STUDENT', '2021-06-07', 'Active', '2021-06-07 13:57:29'),
-(6, '050205182376', '$2y$10$CNu08ojD7.mqje4PQzoOQuwNDj5oZVzzhqj/OKJl5AU9i4u6WH1Wm', 'd.dipol@info.com', 'STUDENT', '2021-06-07', 'Verify', '2021-06-07 14:01:56'),
-(7, '050205182377', '$2y$10$fJuG97UNm8MdUk4bedU1HumQwmjscWt.H0y82QDHnzTQcz3U4hb8q', 'l.corpuz@info.com', 'ADMIN', '2021-06-07', 'Verify', '2021-06-07 14:06:44'),
-(8, '050205182378', '$2y$10$0sWsHbwfG1a/mnmN4Vmoc.oxUax47RwtlHqAMy1VX.MTMd7dy1qTa', 'a.lee@info.com', 'CASHIER', '2021-06-07', 'Verify', '2021-06-07 14:09:20'),
-(9, '050205182379', '$2y$10$qYygbIl2YVK0fl/hnS6MOOgo.Ereq5UKar0HkxoqojBRB/HqfmrOa', 'r.macarang@info.com', 'SCHOOLADMIN', '2021-06-07', 'Verify', '2021-06-07 14:13:27'),
-(10, '050205182380', '$2y$10$8.kW31OGCpHNega76RcHaum98MMZbPQsgtbMfRrnVzex/CAudUBsC', 'd.davinci@info.com', 'SERVICES', '2021-06-07', 'Verify', '2021-06-07 14:13:33'),
-(11, '050205182381', '$2y$10$3DFxEGPaq7NUvmzEZeuO7.TqG59TPv3/pkvcYm6TkTL0pIhO1XHse', 'm.toyota@info.com', 'STUDENTAFFAIR', '2021-06-07', 'Verify', '2021-06-07 14:15:26'),
-(12, '050205182382', '$2y$10$sf9KRiq9gYhpKU82tvL2cuxinfuJFqjJbKhifCwUy3mUwLtdf3Kxe', 'm.mitsubishi@info.com', 'GUIDANCE', '2021-06-07', 'Verify', '2021-06-07 14:17:08'),
-(13, '050205182383', '$2y$10$u84MpDKvhtxlCAyj.R605uRtJIPGIlg2e.1txtdvKh1fkGtbuirIq', 'd.nissan@info.com', 'CLINIC', '2021-06-07', 'Verify', '2021-06-07 14:19:08'),
-(14, '050205182384', '$2y$10$S7unx6fhxZnRd6iMdEtcmOfq7cbujHzt7DkE7mPtektsRNcdLZTPe', 'a.reizei@info.com', 'LIBRARIAN', '2021-06-07', 'Verify', '2021-06-07 14:19:53'),
-(15, '050205182385', '$2y$10$vKmYYg/2x7di.vRPHtFk7eP.7FbhlkXyMalC41g2P89VLQaSOubNC', 'jd.johnson@info.com', 'INSTRUCTOR', '2021-06-07', 'Verify', '2021-06-07 14:27:10'),
-(16, '050205182386', '$2y$10$NilPVWGGb0mq3k39iLMJY.0V0Jhwar7jiLEVeuhaJPP355U8nCPGa', 'kc.vernes@yahoo.com', 'STUDENT', '2021-06-07', 'Verify', '2021-06-07 14:29:05');
+(1, 'superadmin009', '$2y$10$KeW3qqKsZXQf4oGdeiVU/eYMkH2goScKZuqN.rR1kcw7ODTsM9ZVG', 'superadmin@info.com', 'SUPERADMIN', '2021-05-20', 'Active', '2021-05-20 13:22:46');
 
 -- --------------------------------------------------------
 
