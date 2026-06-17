@@ -16,8 +16,6 @@
 | :---: | :---: |
 | ![Login Page](assets/images/screenshot_login.png) | ![Dashboard](assets/images/screenshot_dashboard.png) |
 
-> 💡 *Note: To render your own screenshots here, upload your system images to an `assets/images/` folder inside your repository and replace the file paths above.*
-
 ---
 
 ## 🎯 Problem Statement & Solution
