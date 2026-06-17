@@ -114,9 +114,8 @@ Open your browser and navigate to the local site directory:
    ```url
    http://localhost/ICCES/
 
-##
- 📂 Project Directory Breakdown
-    ```text
+## 📂 Project Directory Breakdown
+    
     ICCES/
     ├── assets/             # CSS stylesheets, Javascript modules, and branding assets
     ├── config/             # Database connection setups (`db.php`, global parameters)
@@ -125,7 +124,7 @@ Open your browser and navigate to the local site directory:
     ├── faculty/            # Instructor portal queues, response systems
     ├── admin/              # Full system control panels and user configuration suites
     ├── database/           # Contains raw `.sql` database schema blueprints
-    └── index.php           # Main landing, sign-in gateway router```
+    └── index.php           # Main landing, sign-in gateway router
 
 ## ⚠️ Current Project Status & Known Limitations
 As this repository serves as a Thesis/Capstone Proposal prototype, certain modules are currently in a proof-of-concept state and are pending optimization for full production deployment:
