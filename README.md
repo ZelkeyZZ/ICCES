@@ -14,7 +14,7 @@
 
 | Login / Portal Interface | Student Clearance Dashboard |
 | :---: | :---: |
-| ![Login Page](assets/images/screenshot_login.png) | ![Dashboard](assets/images/screenshot_dashboard.png) |
+| ![Login Page](images/screenshots/Loginpage.png) | ![Dashboard](images/screenshots/Overview.png) |
 
 ---
 
