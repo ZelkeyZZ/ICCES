@@ -112,19 +112,7 @@ Open your browser and navigate to the local site directory:
    ```url
    http://localhost/ICCES/
 
-## 📂 Project Directory Breakdown
-    
-    ICCES/
-    ├── assets/             # CSS stylesheets, Javascript modules, and branding assets
-    ├── config/             # Database connection setups (`db.php`, global parameters)
-    ├── includes/           # Reusable UI partials (header, footer, navbars, sidebars)
-    ├── student/            # Student dashboard views, request sub-systems
-    ├── faculty/            # Instructor portal queues, response systems
-    ├── admin/              # Full system control panels and user configuration suites
-    ├── database/           # Contains raw `.sql` database schema blueprints
-    └── index.php           # Main landing, sign-in gateway router
-
-## ⚠️ Current Project Status & Known Limitations
+> ⚠️ Current Project Status & Known Limitations
 As this repository serves as a Thesis/Capstone Proposal prototype, certain modules are currently in a proof-of-concept state and are pending optimization for full production deployment:
 Email Verification Module: The automated email notification and verification workflow is currently non-functional. It requires integration with a live SMTP mail server or a dedicated third-party API (e.g., PHPMailer, SendGrid).
 Unpolished Features: Select UI components, edge-case validation checks, and secondary administration sub-pages are currently unfinished or utilize placeholder layouts.
